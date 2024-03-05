@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200vh;
+    margin: 0;
+}
+
+
+  #rubrik {
+    color: black; /* Textfärg */
+    font-size: 50px; /* Storlek på texten */
+    font-weight: bold; /* Fet stil */
+    margin-bottom: 20px; /* Avstånd nedåt från andra element */
+}
+
+.container {
+    width: 25%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+  }
+ 
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey ;
+    margin-top: auto;
+    height: 10vh;
+    width: 202vh;
+
+}
